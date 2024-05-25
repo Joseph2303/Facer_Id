@@ -32,4 +32,4 @@ async def create_upload_file(
         return {"message": e.args}
     
     
-uvicorn.run(app)
+uvicorn.run(app,port=9000)
